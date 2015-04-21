@@ -1,0 +1,78 @@
+/* CSS Styles */
+@charset "utf-8";
+
+body { font-family: 'Open Sans', Arial, sans-serif; }
+.clean, .cleaner, .clear { clear: both; }
+div.container { max-width: 1200px; position: relative; margin: 0 auto; padding-left: 3%; padding-right: 3%; }
+.school { display: block; position: fixed; top: 30px; -moz-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -o-transition: all 0.2s ease; transition: all 0.2s ease; left: 30px; z-index: 999; background: #333; width: 60px; height: 37px; text-align: center; padding-top: 22px; border-radius: 30px; font-size: 12px; color: #d7d7d7; text-decoration: none; }
+.school:hover { background: #111; color: #FFF; }
+
+header { position: relative; height: 770px; width: 100%; background: url(../img/tatras.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+header img { position: absolute; top: 80px; left: 8%;}
+header div.right { float: right; width: 55%; margin-right: 5%; }
+header div.right h1,h2 { font-weight: 300; font-size: 40px; color: #f7f7f7; line-height: 72px; text-shadow: 1px 1px 5px rgba(0,0,0,.75); }
+header div.right h1 a { font-weight: 300; font-size: 40px; color: #f7f7f7; line-height: 72px; text-shadow: 1px 1px 5px rgba(0,0,0,.75); text-decoration: none; }
+header div.right span { padding-left: 20px; padding-right: 20px; padding-top: 3px; padding-bottom: 5px; }
+header div.right h1 { margin-top: 90px; }
+header div.right h2 { margin-top: 20px; }
+header .grey { background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.6); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000); -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"; }
+header div.claim { position: absolute; bottom: 0; padding-top: 40px; padding-bottom: 40px; text-align: center; width: 100%; }
+header div.claim h3 { font-size: 40px; line-height: 72px; color: #f7f7f7; text-shadow: 1px 1px 5px rgba(0,0,0,.75); }
+
+section#why { padding-top: 100px; padding-bottom: 100px; }
+section#why div.first-half { float: left; width: 46%; }
+section#why div.first-half h4 { font-size: 36px; font-weight: 300; line-height: 48px; color: #333; margin-bottom: 30px; }
+section#why div.first-half p { font-size: 16px; color: #333; line-height: 30px; margin-top: 20px; }
+section#why div.last-half { float: right; width: 46%; }
+section#why div.last-half p { margin-bottom: 10px; text-align: center; }
+section#why div.last-half p a { text-decoration: underline; color: #0A6EC7; }
+section#why div.last-half a:hover { text-decoration: none; }
+section#why div.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+section#why div.video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+section#why div.video-container img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+section#about-me { background: url(../img/texture.png) repeat; padding-top: 60px; }
+section#about-me div.container { background: url(../img/light.png) top repeat-y; }
+section#about-me h4 { text-align: center; font-size: 48px; margin-bottom: 80px; color: #FFF; font-weight: 300; text-shadow: 1px 1px 5px rgba(0,0,0,.75); }
+section#about-me h4 img { position: relative; top: 15px; margin-left: 5px; margin-right: 5px; }
+section#about-me div.frame { background: url(../img/frame.png) no-repeat; padding-top: 11px; padding-left: 11px; padding-right: 11px; padding-bottom: 18px; }
+section#about-me div.frame img { max-width: 100%; }
+section#about-me ul li { display: inline; float: left; width: 29.2%; margin-right: 6.2%; }
+section#about-me ul li:last-child { margin-right: 0; }
+section#about-me h5 { font-size: 30px; margin-top: 100px; color: #FFF; margin-top: 25px; font-weight: 300; text-align: center; text-shadow: 1px 1px 5px rgba(0,0,0,.75); }
+section#about-me p { font-size: 14px; text-align: center; color: #f4f4f4; line-height: 24px; margin-top: 20px; text-shadow: 1px 1px 5px rgba(0,0,0,.75); }
+section#about-me div.left { width: 50%; float: left; margin-top: 70px; }
+section#about-me div.left h4 { font-size: 30px; text-align: left; margin-bottom: 25px; }
+section#about-me div.left p { text-align: left; color: #f4f4f4; }
+section#about-me div.left a { text-decoration: underline; color: #f4f4f4; }
+section#about-me div.left a:hover { text-decoration: none; }
+section#about-me div.right { width: 40.5%; float: right; margin-top: 120px; }
+section#about-me div.right div.testimonial { position: relative; padding-left: 25px; padding-right: 15px; padding-top: 15px; padding-bottom: 20px; width: 90%; height: auto; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; background-color: #6c0704; -webkit-box-shadow: 1px 1px 1px rgba(255,255,255,.34); -moz-box-shadow: 1px 1px 1px rgba(255,255,255,.34); box-shadow: 1px 1px 1px rgba(255,255,255,.34); }
+section#about-me div.right div.testimonial p { color: #f4f4f4; margin-top: 0; text-shadow: 0px 0px 0px; font-size: 14px; text-align: left; font-style: italic; line-height: 24px; }
+section#about-me div.right div.testimonial div.hidden { display: none; }
+section#about-me div.right img { margin-right: 10px; position: relative; top: 20px; }
+section#about-me div.right span { position: relative; padding-right: 5px; float: right; margin-right: 2px; margin-bottom: 60px; color: #d7d7d7; text-transform: uppercase; font-size: 12px; }
+
+section#how { background: url(../img/lines.png) left bottom repeat-x; width: 100%; padding-top: 80px; padding-bottom: 85px; }
+section#how h4 { text-align: left; font-size: 36px; margin-bottom: 50px; color: #333; font-weight: 300; }
+section#how ul li { background: url(../img/arrow.png) 30px 60px no-repeat; display: inline; float: left; width: 19.2%; padding-left: 7.7%; }
+section#how ul li:first-child { padding-left: 0; background: none; }
+section#how ul li img { max-width: 100%; }
+section#how ul li h5 { font-size: 30px; color: #555; margin-top: 30px; font-weight: 300; text-align: center; }
+section#how ul li p { width: 90%; margin-left: auto; margin-right: auto; font-size: 14px; margin-top: 20px; color: #555; text-align: center; line-height: 24px; }
+
+section#contact { background: url(../img/footer.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; width: 100%; }
+section#contact .contact-container { background: url(../img/arrow2.png) 25px 455px no-repeat; width: 560px; position: relative; margin-left: auto; margin-right: auto; padding-top: 70px; }
+section#contact img.profile { display: block; position: absolute; left: 50%; margin-left: -55px; }
+section#contact ul.social { background: url(../img/social.png) 60px 70px no-repeat; padding-top: 200px; margin-bottom: 40px; width: 560px; }
+section#contact ul.social li { position: relative; display: inline-block; margin-left: 25px; }
+section#contact ul.social li:first-child { margin-left: 28px; }
+section#contact ul.social li a { display: block; width: 95%; text-decoration: none; }
+section#contact ul.social li span { font-size: 10px; display: block; width: 100%; text-align: center; color: #FFF; margin-top: 3px; text-shadow: 1px 1px 1px rgba(0,0,0,.75); }
+section#contact h4 { font-size: 30px; font-weight: 300; color: #FFF; text-align: center; line-height: 50px; text-shadow: 1px 1px 1px rgba(0,0,0,.75); }
+section#contact a.button { background: url(../img/contact.png) 0px 0px no-repeat; display: block; width: 420px; height: 110px; margin-top: 25px; margin-bottom: 25px; margin-left: auto; margin-right: auto; }
+section#contact a.button:hover { background: url(../img/contact.png) 1px -108px no-repeat; }
+section#contact p { text-align: center; color: #fff; font-size: 14px; text-shadow: 1px 1px 1px rgba(0,0,0,.75); margin-top: 20px; }
+section#contact ul.share { margin-top: 15px; padding-bottom: 30px; width: 305px; margin-left: auto; margin-right: auto; }
+section#contact ul.share li { display: inline-block; width: 150px; }
+section#contact ul.share li:last-child { display: inline-block; position: relative; top: 0px; }

@@ -1,0 +1,77 @@
+/* CSS Styles */
+@charset "utf-8";
+
+/* Some responsible addons */
+
+@media screen and (max-width: 1366px) {
+	.school { position: absolute; }
+}
+
+@media screen and (max-width: 1270px) {
+	.school { position: absolute; }
+
+	header div.right h1, h2 { font-size: 36px; color: #f7f7f7; line-height: 70px; text-shadow: 1px 1px 5px rgba(0,0,0,.75); }
+	header div.right span { padding-left: 15px; padding-right: 15px; }
+	header div.right h1 { margin-top: 90px; }
+	header div.right h2 { margin-top: 20px; }
+
+	header div.claim h3 { font-size: 36px; }
+
+	section#about-me div.right div.testimonial p { font-size: 13px; }
+}
+
+@media screen and (max-width: 1130px) {
+	header div.right { margin-right: 3%;}
+	header div.right h1, h2 { font-size: 36px; color: #f7f7f7; line-height: 65px; text-shadow: 1px 1px 5px rgba(0,0,0,.75); }
+	header div.right span { padding-left: 15px; padding-right: 15px; }
+	header div.right h1 { margin-top: 100px; }
+	header div.right h2 { margin-top: 20px; }
+
+	section#about-me div.right div.testimonial p { font-size: 13px; }
+}
+
+@media screen and (max-width: 1125px) {
+	header div.right { margin-right: 2%; width: auto; }
+	header div.right h1, h2 { font-size: 34px; color: #f7f7f7; line-height: 60px; text-shadow: 1px 1px 5px rgba(0,0,0,.75); }
+	header div.right span { padding-left: 15px; padding-right: 15px; }
+	header div.right h1 { margin-top: 120px; }
+	header div.right h2 { margin-top: 20px; }
+
+	section#about-me div.right div.testimonial p { font-size: 12px; line-height: 20px; }
+}
+
+@media screen and (max-width: 1070px) {
+	header div.right { margin-right: 2%; }
+	header div.right h1, h2 { font-size: 32px; color: #f7f7f7; line-height: 60px; text-shadow: 1px 1px 5px rgba(0,0,0,.75); }
+	header div.right span { padding-left: 15px; padding-right: 15px; }
+	header div.right h1 { margin-top: 120px; }
+	header div.right h2 { margin-top: 20px; }
+
+	section#about-me div.right div.testimonial p { font-size: 12px; line-height: 20px; }
+}
+
+@media screen and (max-width: 1024px) {
+	header div.right { margin-right: 3%; }
+	header div.right h1, h2 { font-size: 30px; color: #f7f7f7; line-height: 60px; text-shadow: 1px 1px 5px rgba(0,0,0,.75); }
+	header div.right span { padding-left: 15px; padding-right: 15px; }
+	header div.right h1 { margin-top: 120px; }
+	header div.right h2 { margin-top: 20px; }
+
+	section#about-me div.right div.testimonial p { font-size: 12px; line-height: 20px; }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	header img { position: static; display: block; padding-top: 5%; width: 30%; margin-left: auto; margin-right: auto; }
+	header div.right { float: none; width: 100%; margin-left: auto; margin-right: auto; }
+	header div.right h1,h2 { font-size: 2em; text-align: center; }
+	header div.right h1 { margin-top: 30px; }
+	header div.right h2 { margin-top: 0; }
+	header div.claim { padding-top: 20px; padding-bottom: 20px; }
+	header div.claim h3 { font-size: 2em; line-height: 2em; }
+
+	section#why { padding-top: 50px; padding-bottom: 50px; }
+	section#why div.first-half { float: none; width: auto; margin-bottom: 30px; }
+	section#why div.last-half { float: none; width: auto; }
+
+	section#how ul li { background: url(../img/arrow.png) 10px 15px no-repeat; display: inline; float: left; width: 19.2%; padding-left: 7.7%; }
+}

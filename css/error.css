@@ -1,0 +1,11 @@
+/* CSS Styles */
+@charset "utf-8";
+
+html { font-family: 'Open Sans', sans-serif; background: url(../img/footer.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+body { width: 700px; margin-left: auto; margin-right: auto; }
+h1 { font-weight: 300; font-size: 48px; color: #f7f7f7; line-height: 72px; text-shadow: 1px 1px 5px rgba(0,0,0,.75); text-align: center; margin-top: 200px; }
+p { font-size: 24px; font-weight: 300; color: #f7f7f7; text-align: center; line-height: 48px; text-shadow: 1px 1px 5px rgba(0,0,0,.75); }
+ul { list-style: disc; font-size: 16px; color: #f7f7f7; margin-left: 200px; margin-top: 20px; text-shadow: 1px 1px 5px rgba(0,0,0,.75); }
+ul li { line-height: 28px; }
+ul li a { text-decoration: underline; color: #FFF; }
+ul li a:hover { text-decoration: none; }

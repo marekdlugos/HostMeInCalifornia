@@ -1,0 +1,14 @@
+/* CSS Styles */
+@charset "utf-8";
+
+#page h2 { text-align: center; }
+#page img { width: 50%; display: block; margin-left: auto; margin-right: auto; margin-bottom: 10%; }
+#page p { margin-top: 40px; text-align: center; }
+
+#page1 h3 { text-align: center; }
+#page1 h1.bigger { font-size: 120%; }
+#page1 img { width: 50%; display: block; margin-left: auto; margin-right: auto; }
+
+#page3 h2 { text-align: left; }
+
+#page5 h2 { text-align: center; }

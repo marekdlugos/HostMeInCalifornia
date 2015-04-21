@@ -1,0 +1,10 @@
+/* CSS Styles */
+@charset "utf-8";
+
+/* Some fixes around IE8  */
+
+header div.right h1, h2 { font-size: 38px; }
+header .grey { background: none !important; }
+
+section#about-me ul li { margin-right: 4.1%; }
+section#about-me div.right div.testimonial p { font-size: 13px; }
